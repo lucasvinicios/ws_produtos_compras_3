@@ -1,14 +1,12 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# Diretórios de ambiente virtual
+venv/
+.venv/
+env/
 
-pkg/
-src/
+# Arquivos de configuração
+.env
+*.pyc
+*.log
+*.db
+.pytest_cache/
+__pycache__/
